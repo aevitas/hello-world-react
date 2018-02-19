@@ -1,7 +1,11 @@
 sudo: required
 
+language: node_js
+node_js:
+  - "8"
+
 services:
   - docker
 
-before_install:
+after_success:
   - docker build -t hello-world-react .
