@@ -1,5 +1,7 @@
 # hello-world-react
 
+![Build Status](https://travis-ci.org/aevitas/hello-world-react.svg?branch=master)
+
 This repository contains a React **Hello World** application that runs on Docker. It is served via Nginx, and CI is provided by TravisCI.
 
 The React application is simply a slightly modified application by [`create-react-app`](https://reactjs.org/docs/add-react-to-a-new-app.html).
